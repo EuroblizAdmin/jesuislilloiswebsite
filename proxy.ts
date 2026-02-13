@@ -9,6 +9,15 @@ export async function proxy(request: NextRequest) {
     request.nextUrl.pathname.startsWith('/keystatic') ||
     request.nextUrl.pathname.startsWith('/api/keystatic')
   ) {
+    // Allow Keystatic GitHub OAuth routes to bypass authentication
+    // These routes need to be publicly accessible for the OAuth flow to complete
+    if (
+      request.nextUrl.pathname.startsWith('/api/keystatic/github/oauth') ||
+      request.nextUrl.pathname.includes('/api/keystatic/github')
+    ) {
+      return NextResponse.next()
+    }
+
     try {
       // Create a response object
       const response = NextResponse.next()

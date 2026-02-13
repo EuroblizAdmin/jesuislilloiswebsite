@@ -6,4 +6,5 @@ export const { GET, POST } = makeRouteHandler({
   localBaseDirectory: process.cwd(),
   clientId: process.env.GITHUB_CLIENT_ID,
   clientSecret: process.env.GITHUB_CLIENT_SECRET,
+  secret: process.env.KEYSTATIC_SECRET!,
 });
