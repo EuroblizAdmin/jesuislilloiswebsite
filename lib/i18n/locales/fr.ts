@@ -17,7 +17,8 @@ export const fr: Translations = {
     readTime: "mins de lecture",
     title: "Découvrez Votre Prochaine",
     highlight: "Aventure",
-    subtitle: "Explorez les destinations les plus époustouflantes du monde avec des conseils d'experts",
+    subtitle:
+      "Explorez les destinations les plus époustouflantes du monde avec des conseils d'experts",
     cta: "Explorer",
   },
   home: {
@@ -44,9 +45,11 @@ export const fr: Translations = {
     expedition: {
       badge: "Nos Expéditions",
       title: "Découvrez Votre Prochaine Aventure",
-      subtitle: "Des aventures palpitantes aux immersions culturelles, explorez nos expéditions organisées conçues pour les explorateurs modernes",
+      subtitle:
+        "Des aventures palpitantes aux immersions culturelles, explorez nos expéditions organisées conçues pour les explorateurs modernes",
       notFoundTitle: "Vous ne trouvez pas ce que vous cherchez ?",
-      notFoundText: "Laissez-nous concevoir une expédition entièrement personnalisée adaptée à vos intérêts, votre budget et votre emploi du temps",
+      notFoundText:
+        "Laissez-nous concevoir une expédition entièrement personnalisée adaptée à vos intérêts, votre budget et votre emploi du temps",
       viewAll: "Voir Toutes les Expéditions",
       book: "Réserver une Consultation",
       explore: "Explorer",
@@ -54,7 +57,8 @@ export const fr: Translations = {
   },
   contact: {
     title: "Entrer en Contact",
-    subtitle: "Des questions sur nos expéditions ou envie de planifier un voyage sur mesure ? Envoyez-nous un message !",
+    subtitle:
+      "Des questions sur nos expéditions ou envie de planifier un voyage sur mesure ? Envoyez-nous un message !",
     name: "Nom",
     email: "Email",
     message: "Message",
@@ -70,11 +74,13 @@ export const fr: Translations = {
   expeditions: {
     adventure: {
       title: "Tours d'Aventure",
-      description: "Aventures palpitantes à travers montagnes, forêts et terrains inexplorés",
+      description:
+        "Aventures palpitantes à travers montagnes, forêts et terrains inexplorés",
     },
     photography: {
       title: "Tours de Photographie",
-      description: "Capturez des paysages époustouflants avec des conseils d'experts",
+      description:
+        "Capturez des paysages époustouflants avec des conseils d'experts",
     },
     cultural: {
       title: "Expéditions Culturelles",
@@ -82,12 +88,14 @@ export const fr: Translations = {
     },
     trekking: {
       title: "Expéditions de Trekking",
-      description: "Défiez-vous avec des treks guidés à travers des sentiers à couper le souffle",
+      description:
+        "Défiez-vous avec des treks guidés à travers des sentiers à couper le souffle",
     },
   },
   blog: {
     title: "Blog",
-    description: "Ici, nous partageons des conseils de voyage, des guides de destination et des histoires qui inspirent votre prochaine aventure.",
+    description:
+      "Ici, nous partageons des conseils de voyage, des guides de destination et des histoires qui inspirent votre prochaine aventure.",
     sortBy: "Trier par",
     newest: "Plus récent",
     oldest: "Plus ancien",
@@ -106,7 +114,8 @@ export const fr: Translations = {
     articleAvailable: "Articles disponibles",
   },
   footer: {
-    mission: "Notre mission est d'équiper les explorateurs modernes avec des perspectives organisées, des histoires sincères et des conseils pratiques.",
+    mission:
+      "Notre mission est d'équiper les explorateurs modernes avec des perspectives organisées, des histoires sincères et des conseils pratiques.",
     about: "À propos",
     aboutUs: "À propos de nous",
     blog: "Blog",
@@ -118,7 +127,8 @@ export const fr: Translations = {
     helpCenter: "Centre d'aide",
     faq: "FAQ",
     getUpdates: "Recevoir les mises à jour",
-    newsletterText: "Abonnez-vous à notre newsletter pour les derniers conseils de voyage et guides de destination.",
+    newsletterText:
+      "Abonnez-vous à notre newsletter pour les derniers conseils de voyage et guides de destination.",
     emailPlaceholder: "Entrez votre email",
     subscribe: "S'abonner",
     copyright: "©2024 Je Suis Lillois. Tous droits réservés.",
@@ -143,6 +153,13 @@ export const fr: Translations = {
         title: "Ma Mission",
         p1: "Mon objectif est d'inspirer et d'équiper les autres voyageurs avec des conseils pratiques, des expériences authentiques et des histoires sincères. Que vous planifiez votre première aventure ou que vous soyez un explorateur chevronné, j'espère que mon voyage pourra vous aider à découvrir votre prochaine destination.",
         p2: "Rejoignez-moi alors que je continue d'explorer, d'apprendre et de grandir grâce au cadeau incroyable du voyage. Créons des souvenirs et des histoires qui valent la peine d'être racontées.",
+        p3: "En explorant les librairies locales, les archives, en échangeant avec des historiens, en regardant des documentaires et au fil de nombreuses promenades, j’ai rassemblé ces histoires et transformé ma passion en une collection soigneusement sélectionnée d’expéditions uniques — parfaites pour les francophiles, les voyageurs curieux et tous ceux qui souhaitent découvrir Lille comme un habitant.",
+      },
+      mission2: {
+        title: "Que fais-je aujourd'hui avec ce projet ?",
+        p1: "J'ai quitté Lille en 2025 après y avoir vécu cinq merveilleuses années. Après avoir obtenu mon diplôme de l'EDHEC en 2023, j'ai choisi de rester en tant qu'entrepreneur — je me sentais déjà profondément lié à la ville après trois ans comme étudiant. Durant cette période, je me suis engagé en politique locale en tant que jeune militant, œuvrant pour protéger et mettre en valeur le riche patrimoine de Lille.",
+        p2: "« Je Suis Lillois » a commencé comme un projet purement passionnel, jamais mon activité professionnelle principale, mais j'y ai mis tout mon cœur et toute mon âme. C'est pourquoi le site est toujours en ligne, pourquoi je continue d'écrire des articles de blog et pourquoi des personnes découvrent encore ces histoires. Pour le moment, je n'organise plus d'expéditions et je ne prends pas de réservations — mais la porte n'est jamais totalement fermée. S'il y a suffisamment d'intérêt de la part d'autres francophiles ou si quelqu'un souhaite aider à redonner vie à ces visites, je les relancerais avec grand plaisir.",
+        p3: "Mon rêve reste le même : un jour, posséder un petit chez-moi à Lille et y revenir souvent. En partant, j'ai laissé un petit morceau de mon cœur dans ses rues. Alors si, un jour, vous ressentez une étincelle discrète d'émerveillement en vous promenant dans le Vieux-Lille ou le long des canaux… sachez qu'un peu de ce cœur lillois est peut-être encore là, à vous attendre.",
       },
       cta: "Lire Mes Histoires",
     },
@@ -154,13 +171,15 @@ export const fr: Translations = {
   blogPage: {
     hero: {
       title: "Histoires de Voyage et Guides",
-      subtitle: "Découvrez des contes inspirants, des conseils pratiques et des guides complets pour votre prochaine aventure",
+      subtitle:
+        "Découvrez des contes inspirants, des conseils pratiques et des guides complets pour votre prochaine aventure",
     },
   },
   galleryPage: {
     hero: {
       title: "Galerie de Voyage",
-      subtitle: "Explorez notre collection de moments époustouflants du monde entier",
+      subtitle:
+        "Explorez notre collection de moments époustouflants du monde entier",
     },
     categories: {
       all: "Tout",
@@ -178,7 +197,8 @@ export const fr: Translations = {
     },
     form: {
       title: "Demande de Consultation",
-      subtitle: "Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures",
+      subtitle:
+        "Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures",
       service: {
         label: "Sélectionner un Service",
         placeholder: "Choisissez votre type d'expédition",
@@ -211,14 +231,17 @@ export const fr: Translations = {
       },
       message: {
         label: "Informations Supplémentaires",
-        placeholder: "Parlez-nous de vos préférences, exigences particulières ou questions...",
+        placeholder:
+          "Parlez-nous de vos préférences, exigences particulières ou questions...",
       },
       submit: "Confirmer la Demande de Réservation",
-      disclaimer: "En soumettant ce formulaire, vous acceptez nos conditions d'utilisation et notre politique de confidentialité",
+      disclaimer:
+        "En soumettant ce formulaire, vous acceptez nos conditions d'utilisation et notre politique de confidentialité",
     },
     success: {
       title: "Réservation Confirmée !",
-      message: "Merci pour votre demande de réservation. Nous vous contacterons sous peu pour confirmer votre rendez-vous.",
+      message:
+        "Merci pour votre demande de réservation. Nous vous contacterons sous peu pour confirmer votre rendez-vous.",
       summary: "Résumé de la Réservation",
       home: "Retour à l'Accueil",
       services: "Voir les Services",
@@ -241,7 +264,8 @@ export const fr: Translations = {
     share: "Partager",
     author: "Auteur",
     readTime: "min de lecture",
-    writtenBy: "Écrivain de voyage professionnel et photographe explorant le monde une destination à la fois.",
+    writtenBy:
+      "Écrivain de voyage professionnel et photographe explorant le monde une destination à la fois.",
   },
   serviceDetailPage: {
     notFound: "Service Introuvable",
@@ -267,7 +291,8 @@ export const fr: Translations = {
       popular: "Plus Populaire",
       consultation: "Réserver une Consultation",
       brochure: "Télécharger la Brochure",
-      contact: "Des questions ? Contactez-nous pour une assistance personnalisée.",
+      contact:
+        "Des questions ? Contactez-nous pour une assistance personnalisée.",
     },
   },
-}
+};
