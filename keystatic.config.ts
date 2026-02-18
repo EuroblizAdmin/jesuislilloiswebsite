@@ -1,16 +1,13 @@
 import { config, fields, collection } from '@keystatic/core';
 
 export default config({
-  storage: process.env.NODE_ENV === 'production'
-    ? {
-        kind: 'github',
-        repo: {
-          owner: process.env.GITHUB_REPO_OWNER!,
-          name: process.env.GITHUB_REPO_NAME!,
-        },
-      }
-    : { kind: 'local' },
-
+  storage: {
+    kind: 'github',
+    repo: {
+      owner: process.env.NEXT_PUBLIC_GITHUB_OWNER!,
+      name: process.env.NEXT_PUBLIC_GITHUB_REPO!,
+    },
+  },
   ui: {
     brand: {
       name: 'Travel Blog CMS',

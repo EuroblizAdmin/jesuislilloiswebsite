@@ -4,6 +4,8 @@ import keystaticConfig from '@/keystatic.config'
 import { BlogPostClient } from "@/components/blog/blog-post-client"
 import type { BlogPostWithAuthor } from '@/lib/types'
 
+export const dynamic = 'force-dynamic'
+
 export async function generateStaticParams() {
   const reader = createReader(process.cwd(), keystaticConfig)
   const posts = await reader.collections.posts.all()

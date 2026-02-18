@@ -11,10 +11,8 @@ export async function proxy(request: NextRequest) {
   ) {
     // Allow Keystatic GitHub OAuth routes to bypass authentication
     // These routes need to be publicly accessible for the OAuth flow to complete
-    if (
-      request.nextUrl.pathname.startsWith('/api/keystatic/github/oauth') ||
-      request.nextUrl.pathname.includes('/api/keystatic/github')
-    ) {
+    const isKeystaticGithubOAuth = request.nextUrl.pathname.startsWith('/api/keystatic/github/')
+    if (isKeystaticGithubOAuth) {
       return NextResponse.next()
     }
 

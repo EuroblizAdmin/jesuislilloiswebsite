@@ -6,6 +6,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Mark keystatic as external package for serverless
+  serverExternalPackages: ['@keystatic/core'],
+  // Include content files in Vercel's output file tracing
+  outputFileTracingIncludes: {
+    '/*': ['./content/**/*'],
+  },
 }
 
 export default nextConfig
