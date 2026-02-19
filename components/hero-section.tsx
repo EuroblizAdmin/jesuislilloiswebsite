@@ -36,7 +36,7 @@ export function HeroSection() {
         className="absolute inset-0 will-change-transform"
       >
         <img
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070"
+          src="/personal_img/Home_banner.jpeg"
           alt="Adventure Awaits"
           className="object-cover absolute inset-0 w-full h-full"
         />

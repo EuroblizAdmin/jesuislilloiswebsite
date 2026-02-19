@@ -13,12 +13,12 @@ export default function AboutPage() {
       <Navbar />
 
       {/* Hero Section with Image */}
-      <section className="relative h-[60vh] w-full overflow-hidden">
+      <section className="relative h-[80vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-b from-black/50 to-black/30 z-10" />
         <img
-          src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=2835"
+          src="/personal_img/About_me.jpeg"
           alt="About Me"
-          className="object-cover absolute inset-0 w-full h-full"
+          className="absolute inset-0 w-full h-full object-cover object-[center_80%]"
         />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <div className="container mx-auto px-4 text-center">
