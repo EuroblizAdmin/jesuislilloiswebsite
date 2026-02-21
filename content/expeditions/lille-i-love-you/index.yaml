@@ -2,7 +2,7 @@ title_en: Lille I Love You
 title_fr: Lille je t'aime
 tagline_en: when love is in the air. In Lille
 tagline_fr: Quand l'amour est dans l'air. À Lille
-heroImage: /images/expeditions/lille-i-love-you/heroImage.png
+heroImage: /images/expeditions/lille-i-love-you/heroImage.jpg
 description_en: >-
   They say February is the month when love is in the air. In Lille, that feeling
   often arrives alongside snowflakes or gentle raindrops — right at the tail end
@@ -35,8 +35,4 @@ description_fr: >-
   d'Adèle (titre international : Blue Is the Warmest Colour), cette belle et
   intime romance lesbienne mettant en vedette Léa Seydoux (connue par beaucoup
   comme la James Bond girl de Spectre) et Adèle Exarchopoulos.
-testimonials:
-  - name: John
-    rating: 3
-    text_en: So much Love in the Atmosphere
-    text_fr: Tant d'amour dans l'atmosphère
+testimonials: []
