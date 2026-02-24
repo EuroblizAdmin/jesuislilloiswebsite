@@ -96,8 +96,8 @@ export function ExpeditionPreview({ expeditions }: ExpeditionPreviewProps) {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-background rounded-2xl p-8 md:p-12 shadow-lg border border-border">
-          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+       {/* <div className="text-center bg-background rounded-2xl p-8 md:p-12 shadow-lg border border-border">
+          <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             {t.home.expedition.notFoundTitle}
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
@@ -110,14 +110,15 @@ export function ExpeditionPreview({ expeditions }: ExpeditionPreviewProps) {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
-            {/* <Button size="lg" variant="outline" asChild>
-              <Link href="/book-appointment">
-                {t.home.expedition.book}
-              </Link>
-            </Button> */}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
 }
+
+{/* <Button size="lg" variant="outline" asChild>
+  <Link href="/book-appointment">
+  {t.home.expedition.book}
+  </Link>
+</Button> */}

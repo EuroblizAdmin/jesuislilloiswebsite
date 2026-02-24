@@ -107,21 +107,16 @@ export function ExpeditionsListClient({ expeditions }: ExpeditionsListClientProp
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-muted/30">
+      {/* <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            {t.home.expedition.notFoundTitle}
+            {t.home.expedition.galleryCtaTitle}
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            {t.home.expedition.notFoundText}
+            {t.home.expedition.galleryCtaText}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            {/* <Link
-              href="/_book-appointment"
-              className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-primary rounded-lg hover:bg-primary/90 transition-colors"
-            >
-              {t.home.expedition.book}
-            </Link> */}
+
             <Link
               href="/gallery"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-primary border-2 border-border rounded-lg hover:bg-muted/50 transition-colors"
@@ -130,9 +125,16 @@ export function ExpeditionsListClient({ expeditions }: ExpeditionsListClientProp
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </main>
   )
 }
+
+{/* <Link
+    href="/_book-appointment"
+    className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-primary rounded-lg hover:bg-primary/90 transition-colors"
+  >
+  {t.home.expedition.book}
+  </Link> */}

@@ -47,12 +47,13 @@ export const fr: Translations = {
       title: "Découvrez Votre Prochaine Aventure",
       subtitle:
         "Des aventures palpitantes aux immersions culturelles, explorez nos expéditions organisées conçues pour les explorateurs modernes",
-      notFoundTitle: "Vous ne trouvez pas ce que vous cherchez ?",
-      notFoundText:
-        "Laissez-nous concevoir une expédition entièrement personnalisée adaptée à vos intérêts, votre budget et votre emploi du temps",
-      viewAll: "Voir Toutes les Expéditions",
+      // notFoundTitle: "Il y a encore plus à découvrir",
+      // notFoundText: "Parcourez toute la collection d'expéditions et trouvez celle qui vous parle",
+      // viewAll: "Voir Toutes les Expéditions",
       book: "Réserver une Consultation",
       explore: "Explorer",
+      // galleryCtaTitle: "Voyez le monde à travers notre objectif",
+      // galleryCtaText: "Découvrez notre galerie de voyage — des instants captés au fil de chaque expédition",
     },
   },
   contact: {
