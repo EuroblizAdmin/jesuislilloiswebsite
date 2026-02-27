@@ -45,7 +45,7 @@ export const en = {
       subtitle: "From thrilling adventures to cultural immersions, explore our curated expeditions designed for modern explorers",
       // notFoundTitle: "There Is More to Explore",
       // notFoundText: "Browse the full collection of expeditions and find the one that speaks to you",
-      // viewAll: "View All Expeditions",
+      viewAll: "View All Expeditions",
       book: "Book Consultation",
       explore: "Explore",
       // galleryCtaTitle: "See the World Through Our Lens",

@@ -49,7 +49,7 @@ export const fr: Translations = {
         "Des aventures palpitantes aux immersions culturelles, explorez nos expéditions organisées conçues pour les explorateurs modernes",
       // notFoundTitle: "Il y a encore plus à découvrir",
       // notFoundText: "Parcourez toute la collection d'expéditions et trouvez celle qui vous parle",
-      // viewAll: "Voir Toutes les Expéditions",
+      viewAll: "Voir Toutes les Expéditions",
       book: "Réserver une Consultation",
       explore: "Explorer",
       // galleryCtaTitle: "Voyez le monde à travers notre objectif",
